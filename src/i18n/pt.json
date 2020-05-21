@@ -1,0 +1,72 @@
+{
+  "global": {
+    "english": "Inglês",
+    "portuguese": "Português",
+    "englishShort": "EN",
+    "portugueseShort": "PT",
+    "englishFull": "(EN) Inglês",
+    "portugueseFull": "(PT) Português",
+    "user": "Nome de Usuário",
+    "irreversible": "Esta ação é irreversível."
+  },
+  "app": {
+    "name": "Awesome Notes"
+  },
+  "login": {
+    "password": "Password",
+    "repeatPassword": "Repita Password",
+    "signin": "Entrar",
+    "forgotPassword": "Esqueceu-se da password?",
+    "noAccountPrompt": "Não tem conta? Registe-se.",
+    "signup": "Registar",
+    "firstName": "Primeiro Nome",
+    "lastName": "Ultimo Nome",
+    "accountPrompt": "Já tem conta? Login.",
+    "tryApp": "Quer experimentar o app? Entre com Nome de Usuário: testUser e password: user1234",
+    "signupSuccess": "Registo efetuado com sucesso",
+    "signinSuccess": "Login efetuado com sucesso",
+    "logoutSuccessful": "Logout efetuado com sucesso"
+  },
+  "loginValidation": {
+    "must not be blank": "obrigatório",
+    "size must be between 6 and 20": "tem de ter entre 6 e 20 caracteres",
+    "must be a well-formed email address": "endereço de email inválido",
+    "Bad credentials": "Credenciais inválidas"
+  },
+  "tabs": {
+    "today": "Today",
+    "notes": "Notas",
+    "archived": "Notas Arquivadas"
+  },
+  "topNav": {
+    "myAccount": "A minha conta",
+    "logout": "Sair"
+  },
+  "toastr": {
+    "success": "Sucesso",
+    "error": "Erro",
+    "Full authentication is required to access this resource": "Autenticação necessária para aceder a este recurso"
+  },
+  "notes": {
+    "today": "Notas para Hoje",
+    "notesList": "Todas as Notas",
+    "notesListFinished": "Notas Arquivadas",
+    "content": "Conteúdo ",
+    "finished": "Acabada",
+    "dueDate": "Data Final",
+    "noDueDate": "Sem Data Final",
+    "addNote": "Adicionar Nota",
+    "addNoteSuccess": "Nota Adicionada",
+    "editNote": "Editar Nota",
+    "editNoteSuccess": "Nota Editada",
+    "deleteNote": "Apagar Nota",
+    "deleteNoteConfirmation": "Tem a certeza que pretende remover a nota?"
+  },
+  "noteValidation": {
+    "enter_note": "Introduzir conteúdo"
+  },
+  "files": {
+    "fileAddedSucess": "Ficheiro adicionado",
+    "fileRemovedSucess": "Ficheiro removido"
+  }
+}

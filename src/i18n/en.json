@@ -1,0 +1,72 @@
+{
+  "global": {
+    "english": "English",
+    "portuguese": "Portuguese",
+    "englishShort": "EN",
+    "portugueseShort": "PT",
+    "englishFull": "(EN) English",
+    "portugueseFull": "(PT) Portuguese",
+    "user": "User Name",
+    "irreversible": "This action is irreversible."
+  },
+  "app": {
+    "name": "Awesome Notes"
+  },
+  "login": {
+    "password": "Password",
+    "repeatPassword": "Repeat Password",
+    "signin": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "noAccountPrompt": "Don't have an account? Sign up.",
+    "signup": "Sign up",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "accountPrompt": "Already have an account? Sign in.",
+    "tryApp": "Want to try the app? Login with User Name: testUser and password: user1234",
+    "signupSuccess": "Sign up successful",
+    "signinSuccess": "Sign in successful",
+    "logoutSuccessful": "Logout successful"
+  },
+  "loginValidation": {
+    "must not be blank": "mandatory",
+    "size must be between 6 and 20": "size must be between 6 and 20",
+    "must be a well-formed email address": "must be a well-formed email address",
+    "Bad credentials": "Invalid credentials"
+  },
+  "tabs": {
+    "today": "Today",
+    "notes": "Notes",
+    "archived": "Archived Notes"
+  },
+  "topNav": {
+    "myAccount": "My account",
+    "logout": "Logout"
+  },
+  "toastr": {
+    "success": "Success",
+    "error": "Error",
+    "Full authentication is required to access this resource": "Full authentication is required to access this resource"
+  },
+  "notes": {
+    "today": "Notes for Today",
+    "notesList": "All Notes",
+    "notesListFinished": "Archived Notes",
+    "content": "Content",
+    "finished": "Finished",
+    "dueDate": "Due Date",
+    "noDueDate": "No Due Date",
+    "addNote": "Add Note",
+    "addNoteSuccess": "Note Added",
+    "editNote": "Edit Note",
+    "editNoteSuccess": "Note Edited",
+    "deleteNote": "Delete Note",
+    "deleteNoteConfirmation": "Are you sure you want to delete the note?"
+  },
+  "noteValidation": {
+    "enter_note": "Enter content"
+  },
+  "files": {
+    "fileAddedSucess": "File Added",
+    "fileRemovedSucess": "File Removed"
+  }
+}
