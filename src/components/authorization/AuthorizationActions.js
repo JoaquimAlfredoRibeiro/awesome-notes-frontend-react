@@ -95,7 +95,8 @@ export const loginUser = (user, history) => (dispatch) => {
 export const logoutUser = (history) => (dispatch) => {
   axios
     .post(`${BASE_URL}/logout`)
-    .then((res) => {
+    .then((response) => {
+      history.push('/auth')
       localStorage.removeItem(appConsts.ACCESS_TOKEN)
       setAuthToken(false)
       dispatch(setCurrentUser({}))
@@ -103,9 +104,6 @@ export const logoutUser = (history) => (dispatch) => {
     //success message
     .then((response) => {
       toastr.success(I18n.t('toastr.success'), I18n.t('login.logoutSuccessful'))
-    })
-    .then((response) => {
-      history.push('/auth')
     })
     .catch((e) => {
       //if error message is ApiResponse
